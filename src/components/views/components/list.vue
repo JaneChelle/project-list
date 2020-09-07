@@ -5,12 +5,12 @@
         <img :src="listArr.img" alt="">
       </div>
       <div class="content">
-        <p class="name"><a :href="listArr.url">{{listArr.name}}</a></p>
+        <p class="name"><a :href="listArr.url">{{listArr.project_name}}</a></p>
         <p class="owner">
-          <span style="padding-right: 15px">网站负责人：{{listArr.WebsiteOwner}}</span>
-          <span>产品负责人：{{listArr.ProductOwner}}</span>
+          <span style="padding-right: 15px">网站负责人：{{listArr.project_develop_m}}</span>
+          <span>产品负责人：{{listArr.project_product_m}}</span>
         </p>
-        <p class="font" :title="listArr.instrutions">{{listArr.instrutions}}</p>
+        <p class="font" :title="listArr.project_des">{{listArr.project_des}}</p>
       </div>
       <div class="foot">
         <span class="right">

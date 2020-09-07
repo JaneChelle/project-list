@@ -42,12 +42,16 @@ export default {
       console.log(datas)
       if (datas.erron === ERR_OK) {
         let dataJson = datas.data
+        console.log(dataJson)
         let arr1 = JSON.parse(localStorage.getItem('arr'))
         console.log(arr1)
         if (arr1 && arr1.length) {
           dataJson.forEach((item) => {
             if (arr1.includes(item.id)) {
               item.isCollect = true
+              // 收藏置顶
+              dataJson.unshift(item) // 添加到头部
+              dataJson.splice(dataJson.lastIndexOf(item), 1) // 删除原有的
             }
           })
         }
@@ -59,7 +63,7 @@ export default {
       })
   },
   methods: {
-    // 收藏
+    // 收藏与否
     addCollect (item) {
       let get = JSON.parse(localStorage.getItem('arr'))
       console.log(get)
