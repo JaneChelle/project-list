@@ -2,12 +2,12 @@
 <div>
     <div class="link">
       <div class="img">
-        <img :src="listArr.img" alt="">
+        <img :src="listArr.project_img" alt="">
       </div>
       <div class="content">
         <p class="name"><a :href="listArr.url">{{listArr.project_name}}</a></p>
         <p class="owner">
-          <span style="padding-right: 15px">网站负责人：{{listArr.project_develop_m}}</span>
+          <span>网站负责人：{{listArr.project_develop_m}}</span> <br>
           <span>产品负责人：{{listArr.project_product_m}}</span>
         </p>
         <p class="font" :title="listArr.project_des">{{listArr.project_des}}</p>
@@ -54,7 +54,7 @@ export default {
 .link{
   display: block;
   width: 100%;
-  height: 355px;
+  height: 365px;
 }
 .img{
   height: 202px;
@@ -78,7 +78,6 @@ export default {
   line-height: 24px;
   overflow: hidden;
   font-size: 14px;
-  margin-top: 8px;
   color: #636363;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -90,7 +89,9 @@ export default {
 }
 .owner{
   font-size: 12px;
-  padding-top: 10px;
+}
+.owner span{
+  line-height: 24px;
 }
 .foot{
   overflow: hidden;

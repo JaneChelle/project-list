@@ -2,103 +2,85 @@
   "erron": 0,
     "list": [
       {
+        "project_img": "static/images/p_cpa.png",
+        "project_name": "小钼任务",
+        "project_des": "钼媒CPA(小钼任务)是一个依托优质流量资源，可提供给广告主多种任务及任务组合的广告投放形式，并利用专业数据处理算法实现成本可控、效果可观、精准定位的效果广告投放平台",
+        "project_product_m": "shaohuoqin",
+        "project_develop_m": "",
+        "url": "https://cpa.jd.com",
         "id": 1,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
+
       },
       {
+        "project_img": "static/images/p_mu_m_bl.png",
+        "project_name": "钼媒百灵",
+        "project_des": "提供一套基于已有优势资源的、可衡量效果的本地化营销系统，满足本地化商家营销诉求，获取本地商户的营销预算。",
+        "project_product_m": "hanshixiong5",
+        "project_develop_m": "liujuguang",
+        "url": "https://localdsp.jd.com",
         "id": 2,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       },
       {
+        "project_img": "static/images/p_advertising_p_t.png",
+        "project_name": "广告操作平台",
+        "project_des": "提供给广告主、代理商，一站式的广告投放操作平台。来提高投放效率、降低投放成本、提升投放效果",
+        "project_product_m": "gaoxiang101",
+        "project_develop_m": "gaoxiang101",
+        "url": "",
         "id": 3,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       },
       {
+        "project_img": "static/images/p_mu_guang_tong.png",
+        "project_name": "钼广通",
+        "project_des": "钼广通营销平台，是由钼媒团队自主研发基于京东大数据对接全网流量的线上广告投放平台。广告主可针对目标人群实现线上广告的精准投放，并实时监测广告投放效果。",
+        "project_product_m": "gaoxiang101",
+        "project_develop_m": "gaoxiang101",
+        "url": "https://mgt.jd.com/",
         "id": 4,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       },
       {
+        "project_img": "static/images/p_zan.png",
+        "project_name": "钼场官网",
+        "project_des": "钼场官网",
+        "project_product_m": "gaomiaofei",
+        "project_develop_m": "yemeizhu",
+        "url": "https://zan.jd.com",
         "id": 5,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
-      },{
+        "isCollect": false
+      },
+      {
+        "project_img": "static/images/p_jiang_hu.png",
+        "project_name": "江湖系统",
+        "project_des": "江湖系统",
+        "project_product_m": "gaomiaofei",
+        "project_develop_m": "gaomiaofei",
+        "url": "https://cz.jd.com",
         "id": 6,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       },
       {
+        "project_img": "",
+        "project_name": "小钼智投",
+        "project_des": "",
+        "project_product_m": "",
+        "project_develop_m": "",
+        "url": "",
         "id": 7,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       },
       {
+        "project_img": "",
+        "project_name": "小钼智选",
+        "project_des": "",
+        "project_product_m": "",
+        "project_develop_m": "",
+        "url": "",
         "id": 8,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
-      },
-      {
-        "id": 9,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
-      },
-      {
-        "id": 10,
-        "project_img": "static/images/325x240.jfif",
-        "url": "https://plan.qyer.com/trip/V20JYVFgBzdTZ1I9Cm8/",
-        "project_name": "小钼任务",
-        "isCollect": false,
-        "project_develop_m": "啦啦啦",
-        "project_product_m": "杨阳洋",
-        "project_des": " 从这里直接坐车去了牛津。机场内共有5个航站楼。希思罗机场的航班常常会晚点，因为飞机要等候停机位。从希思罗机场出发的乘客一定要提前确认好自"
+        "isCollect": false
       }
     ]
 }
