@@ -13,7 +13,7 @@ const portfinder = require('portfinder')
 // vue请求本地的json数据
 const express = require('express')
 const app = express()
-const appData = require('../data.json')
+const appData = require('../static/data.json')
 const list = appData.list
 const apiRoutes = express.Router()
 app.use('/api',apiRoutes)

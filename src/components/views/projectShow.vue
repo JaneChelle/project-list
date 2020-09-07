@@ -37,11 +37,11 @@ export default {
     }
   },
   created () {
-    this.$http.get('/api/list').then((response) => {
+    this.$http.get('../../../static/data.json').then((response) => {
       let datas = response.data
       console.log(datas)
       if (datas.erron === ERR_OK) {
-        let dataJson = datas.data
+        let dataJson = datas.list
         console.log(dataJson)
         let arr1 = JSON.parse(localStorage.getItem('arr'))
         console.log(arr1)
@@ -65,7 +65,7 @@ export default {
   methods: {
     // 收藏与否
     addCollect (item) {
-      let get = JSON.parse(localStorage.getItem('arr'))
+      let get = JSON.parse(localStorage.getItem('arr')) === null ? [] : JSON.parse(localStorage.getItem('arr'))
       console.log(get)
       if (item.isCollect === true) {
         if (get) {
