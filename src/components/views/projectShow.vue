@@ -15,7 +15,7 @@
     <div class="main">
       <div class="list">
         <ul class="ulFrame">
-          <li v-for="(item, index) in list" :key="index" class="item">
+          <li v-for="item in list" :key="item.id" class="item">
             <list :listArr="item" @add="addCollect"></list>
           </li>
         </ul>
@@ -76,10 +76,8 @@ export default {
           localStorage.setItem('arr', JSON.stringify(get))
         }
       } else {
-        if (get.includes(item.id)) {
-          get.splice(get.findIndex(item => item === item.id), 1)
-          localStorage.setItem('arr', JSON.stringify(get))
-        }
+        get.splice(get.findIndex(item => item === item.id) + 1, 1)
+        localStorage.setItem('arr', JSON.stringify(get))
       }
     }
   },
